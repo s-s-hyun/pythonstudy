@@ -1,0 +1,79 @@
+# 파이썬 지원 자료형
+"""
+int : 정수
+float : 실수
+comples : 복소수
+bool : 불린
+str : 문자열(시퀀스)
+list : 리스트(시퀀스)
+tuple : 튜플(시퀀스)
+set : 집합
+dict : 사전
+"""
+
+# 숫자형 연산자
+# abs : 절대값 pow : 제곱수
+
+i = 77
+i2 = -14
+big_int = 77777777777777777999999999999999
+
+print(i)
+print(i2)
+print(big_int)
+print()
+
+f = 0.9999
+f2 = 3.141592
+f3 = -3.9
+f4 = 3/9
+
+print(f)
+print(f2)
+print(f3)
+print(f4)
+print()
+
+i1=39
+i2=939
+big_int=799999999999999999999
+big_int2=799999999999999999944444444
+f1=1.234
+f2=3.939
+
+print(">>>>+")
+print("i1 + i2 : ", i1 + i2)
+print("f1 + f2 : ", f1 + f2)
+print("f1 + f2 : ", big_int + big_int2)
+
+print(">>>>*")
+print("i1 + i2 : ", i1 * i2)
+print("f1 + f2 : ", f1 * f2)
+print("f1 + f2 : ", big_int * big_int2)
+print()
+
+# 형 변환 실습
+a = 3.
+b = 6
+c = .7
+d = 12.7
+
+print(type(a), type(b), type(c), type(d),)
+print()
+
+print(float(b))
+print(int(c))
+print(int(d))
+print(int(a))
+print()
+
+x, y = divmod(100, 8)
+print(x,y)
+
+print(pow(5,3), 5 ** 3)
+
+# 외부 모듈
+import math
+
+print(math.ceil(5.1)) #해당 수보다 큰 가장 적은 정수
+print(math.pi)
